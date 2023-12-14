@@ -39,15 +39,6 @@ namespace Persistence.Data.Configuration
             .HasColumnType("double")
             .IsRequired();
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
         builder.HasData(
             new {
                 Id = 1,
@@ -66,48 +57,6 @@ namespace Persistence.Data.Configuration
                 IdProductoFk = 3,
                 Cantidad = 1,
                 ValorUnitUSD = 30.0
-            },
-            new {
-                Id = 4,
-                IdProductoFk = 4,
-                Cantidad = 4,
-                ValorUnitUSD = 10.0
-            },
-            new {
-                Id = 5,
-                IdProductoFk = 5,
-                Cantidad = 2,
-                ValorUnitUSD = 25.5
-            },
-            new {
-                Id = 6,
-                IdProductoFk = 1,
-                Cantidad = 1,
-                ValorUnitUSD = 15.75
-            },
-            new {
-                Id = 7,
-                IdProductoFk = 2,
-                Cantidad = 3,
-                ValorUnitUSD = 30.0
-            },
-            new {
-                Id = 8,
-                IdProductoFk = 3,
-                Cantidad = 1,
-                ValorUnitUSD = 10.0
-            },
-            new {
-                Id = 9,
-                IdProductoFk = 4,
-                Cantidad = 2,
-                ValorUnitUSD = 25.5
-            },
-            new {
-                Id = 10,
-                IdProductoFk = 5,
-                Cantidad = 1,
-                ValorUnitUSD = 15.75
             }
         );
 

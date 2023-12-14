@@ -35,15 +35,7 @@ namespace Persistence.Data.Configuration
             .HasMaxLength(255)
             .IsRequired();
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
         builder.HasData(
             new {
                 Id = 1,
@@ -59,41 +51,6 @@ namespace Persistence.Data.Configuration
                 Id = 3,
                 IdProductoFk = 3,
                 DetallesAdicionalesProducto = "Detalles adicionales para Producto 3"
-            },
-            new {
-                Id = 4,
-                IdProductoFk = 4,
-                DetallesAdicionalesProducto = "Detalles adicionales para Producto 4"
-            },
-            new {
-                Id = 5,
-                IdProductoFk = 5,
-                DetallesAdicionalesProducto = "Detalles adicionales para Producto 5"
-            },
-            new {
-                Id = 6,
-                IdProductoFk = 1,
-                DetallesAdicionalesProducto = "Detalles adicionales para Producto 1"
-            },
-            new {
-                Id = 7,
-                IdProductoFk = 2,
-                DetallesAdicionalesProducto = "Detalles adicionales para Producto 2"
-            },
-            new {
-                Id = 8,
-                IdProductoFk = 3,
-                DetallesAdicionalesProducto = "Detalles adicionales para Producto 3"
-            },
-            new {
-                Id = 9,
-                IdProductoFk = 4,
-                DetallesAdicionalesProducto = "Detalles adicionales para Producto 4"
-            },
-            new {
-                Id = 10,
-                IdProductoFk = 5,
-                DetallesAdicionalesProducto = "Detalles adicionales para Producto 5"
             }
         );
 

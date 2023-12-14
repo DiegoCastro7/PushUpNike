@@ -71,21 +71,21 @@ namespace Persistence.Data.Configuration
             builder.HasData(
                 new {
                     Id = 1,
-                    Username = "Sicer Brito",
-                    Email = "britodelgado514@gmail.com",
+                    Username = "Diego Castro",
+                    Email = "fercho11422@gmail.com",
                     Password = "123456"
                 },
                 new {
                     Id = 2,
-                    Username = "Angelica Morales",
-                    Email = "angedeveloper@gmail.com",
-                    Password = "123456"
+                    Username = "Jennifer Aristizabal",
+                    Email = "jennifer@gmail.com",
+                    Password = "1234567"
                 },
                 new {
                     Id = 3,
-                    Username = "Konny Alucemna",
-                    Email = "lisethtorres969@gmail.com",
-                    Password = "123456"
+                    Username = "Alexandra Castro",
+                    Email = "alexandra@gmail.com",
+                    Password = "1234568"
                 }
             );
 

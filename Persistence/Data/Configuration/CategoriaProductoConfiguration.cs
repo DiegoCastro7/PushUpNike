@@ -26,58 +26,20 @@ namespace Persistence.Data.Configuration
             .HasMaxLength(30)
             .IsRequired();
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
         builder.HasData(
             new {
                 Id = 1,
-                Nombre = "Electrónicos"
+                Nombre = "Jackets"
             },
             new {
                 Id = 2,
-                Nombre = "Ropa"
+                Nombre = "T-Shirts"
             },
             new {
                 Id = 3,
-                Nombre = "Hogar"
-            },
-            new {
-                Id = 4,
-                Nombre = "Deportes"
-            },
-            new {
-                Id = 5,
-                Nombre = "Juguetes"
-            },
-            new {
-                Id = 6,
-                Nombre = "Alimentos"
-            },
-            new {
-                Id = 7,
-                Nombre = "Libros"
-            },
-            new {
-                Id = 8,
-                Nombre = "Salud y Belleza"
-            },
-            new {
-                Id = 9,
-                Nombre = "Automotriz"
-            },
-            new {
-                Id = 10,
-                Nombre = "Muebles"
+                Nombre = "Pants"
             }
         );
-
         }
     }
 }

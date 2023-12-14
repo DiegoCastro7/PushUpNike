@@ -63,15 +63,6 @@ namespace Persistence.Data.Configuration
             .HasMaxLength(255)
             .IsRequired();
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
         builder.HasData(
             new {
                 Id = 1,
@@ -99,69 +90,6 @@ namespace Persistence.Data.Configuration
                 ValorTotalTransaccion = 100.0,
                 IdMetodoPagoFk = 1,
                 DireccionCliente = "Calle C, Ciudad"
-            },
-            new {
-                Id = 4,
-                IdClienteFk = 4,
-                IdCompraFk = 4,
-                FechaTransaccion = DateTime.Now,
-                ValorTotalTransaccion = 30.0,
-                IdMetodoPagoFk = 3,
-                DireccionCliente = "Calle D, Ciudad"
-            },
-            new {
-                Id = 5,
-                IdClienteFk = 5,
-                IdCompraFk = 5,
-                FechaTransaccion = DateTime.Now,
-                ValorTotalTransaccion = 60.0,
-                IdMetodoPagoFk = 2,
-                DireccionCliente = "Calle E, Ciudad"
-            },
-            new {
-                Id = 6,
-                IdClienteFk = 1,
-                IdCompraFk = 6,
-                FechaTransaccion = DateTime.Now,
-                ValorTotalTransaccion = 45.0,
-                IdMetodoPagoFk = 1,
-                DireccionCliente = "Calle F, Ciudad"
-            },
-            new {
-                Id = 7,
-                IdClienteFk = 2,
-                IdCompraFk = 7,
-                FechaTransaccion = DateTime.Now,
-                ValorTotalTransaccion = 80.0,
-                IdMetodoPagoFk = 2,
-                DireccionCliente = "Calle G, Ciudad"
-            },
-            new {
-                Id = 8,
-                IdClienteFk = 3,
-                IdCompraFk = 8,
-                FechaTransaccion = DateTime.Now,
-                ValorTotalTransaccion = 95.0,
-                IdMetodoPagoFk = 3,
-                DireccionCliente = "Calle H, Ciudad"
-            },
-            new {
-                Id = 9,
-                IdClienteFk = 4,
-                IdCompraFk = 9,
-                FechaTransaccion = DateTime.Now,
-                ValorTotalTransaccion = 70.0,
-                IdMetodoPagoFk = 1,
-                DireccionCliente = "Calle I, Ciudad"
-            },
-            new {
-                Id = 10,
-                IdClienteFk = 5,
-                IdCompraFk = 10,
-                FechaTransaccion = DateTime.Now,
-                ValorTotalTransaccion = 55.0,
-                IdMetodoPagoFk = 2,
-                DireccionCliente = "Calle J, Ciudad"
             }
         );
 

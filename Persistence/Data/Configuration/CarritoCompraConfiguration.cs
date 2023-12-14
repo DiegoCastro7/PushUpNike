@@ -105,46 +105,6 @@ namespace Persistence.Data.Configuration
                 ProductoEnCarrito = "Producto 5",
                 CantidadCadaProductoEnCarrito = 2,
                 PrecioTotalCarrito = 25.5
-            },
-            new {
-                Id = 6,
-                IdClienteFk = 4,
-                IdProductoFk = 2,
-                ProductoEnCarrito = "Producto 6",
-                CantidadCadaProductoEnCarrito = 1,
-                PrecioTotalCarrito = 15.75
-            },
-            new {
-                Id = 7,
-                IdClienteFk = 3,
-                IdProductoFk = 1,
-                ProductoEnCarrito = "Producto 7",
-                CantidadCadaProductoEnCarrito = 3,
-                PrecioTotalCarrito = 30.0
-            },
-            new {
-                Id = 8,
-                IdClienteFk = 4,
-                IdProductoFk = 3,
-                ProductoEnCarrito = "Producto 8",
-                CantidadCadaProductoEnCarrito = 1,
-                PrecioTotalCarrito = 10.0
-            },
-            new {
-                Id = 9,
-                IdClienteFk = 5,
-                IdProductoFk = 2,
-                ProductoEnCarrito = "Producto 9",
-                CantidadCadaProductoEnCarrito = 2,
-                PrecioTotalCarrito = 25.5
-            },
-            new {
-                Id = 10,
-                IdClienteFk = 5,
-                IdProductoFk = 1,
-                ProductoEnCarrito = "Producto 10",
-                CantidadCadaProductoEnCarrito = 1,
-                PrecioTotalCarrito = 15.75
             }
         );
         }

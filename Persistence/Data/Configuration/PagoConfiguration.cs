@@ -26,14 +26,7 @@ namespace Persistence.Data.Configuration
             .HasMaxLength(50)
             .IsRequired();
         
-        
-        
-        
-        
-        
-        
-        
-        
+
         
         builder.HasData(
             new {
@@ -59,22 +52,6 @@ namespace Persistence.Data.Configuration
             new {
                 Id = 6,
                 Nombre = "Tarjeta de Débito"
-            },
-            new {
-                Id = 7,
-                Nombre = "Bitcoin"
-            },
-            new {
-                Id = 8,
-                Nombre = "Apple Pay"
-            },
-            new {
-                Id = 9,
-                Nombre = "Google Pay"
-            },
-            new {
-                Id = 10,
-                Nombre = "Venmo"
             }
         );
 

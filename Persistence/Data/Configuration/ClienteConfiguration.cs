@@ -55,73 +55,24 @@ namespace Persistence.Data.Configuration
         builder.HasData(
             new {
                 Id = 1,
-                Nombres = "Juan",
-                Apellidos = "Pérez",
-                Direccion = "Calle A, Ciudad",
-                NroContacto = 123456789.0
+                Nombres = "Diego Fernando",
+                Apellidos = "Castro Torres",
+                Direccion = "Calle 15, Bucaramanga",
+                NroContacto = 3115411220.0
             },
             new {
                 Id = 2,
-                Nombres = "María",
-                Apellidos = "Gómez",
-                Direccion = "Calle B, Ciudad",
-                NroContacto = 987654321.0
+                Nombres = "Jennifer",
+                Apellidos = "Aristizabal",
+                Direccion = "Carrera 23, Piedecuesta",
+                NroContacto = 3115422110.0
             },
             new {
                 Id = 3,
-                Nombres = "Carlos",
-                Apellidos = "Rodríguez",
-                Direccion = "Calle C, Ciudad",
-                NroContacto = 555555555.0
-            },
-            new {
-                Id = 4,
-                Nombres = "Ana",
-                Apellidos = "Martínez",
-                Direccion = "Calle D, Ciudad",
-                NroContacto = 111111111.0
-            },
-            new {
-                Id = 5,
-                Nombres = "Pedro",
-                Apellidos = "López",
-                Direccion = "Calle E, Ciudad",
-                NroContacto = 999999999.0
-            },
-            new {
-                Id = 6,
-                Nombres = "Laura",
-                Apellidos = "Sánchez",
-                Direccion = "Calle F, Ciudad",
-                NroContacto = 888888888.0
-            },
-            new {
-                Id = 7,
-                Nombres = "Diego",
-                Apellidos = "Hernández",
-                Direccion = "Calle G, Ciudad",
-                NroContacto = 777777777.0
-            },
-            new {
-                Id = 8,
-                Nombres = "Elena",
-                Apellidos = "Gutiérrez",
-                Direccion = "Calle H, Ciudad",
-                NroContacto = 666666666.0
-            },
-            new {
-                Id = 9,
-                Nombres = "Hugo",
-                Apellidos = "Flores",
-                Direccion = "Calle I, Ciudad",
-                NroContacto = 444444444.0
-            },
-            new {
-                Id = 10,
-                Nombres = "Sofía",
-                Apellidos = "Díaz",
-                Direccion = "Calle J, Ciudad",
-                NroContacto = 333333333.0
+                Nombres = "Alexandra",
+                Apellidos = "Castro Torres",
+                Direccion = "Calle 25, Giron",
+                NroContacto = 3118473642.0
             }
         );
 

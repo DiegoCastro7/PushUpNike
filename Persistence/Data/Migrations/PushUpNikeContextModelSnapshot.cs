@@ -101,51 +101,6 @@ namespace Persistence.Data.Migrations
                             IdProductoFk = 3,
                             PrecioTotalCarrito = 25.5,
                             ProductoEnCarrito = "Producto 5"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CantidadCadaProductoEnCarrito = 1,
-                            IdClienteFk = 4,
-                            IdProductoFk = 2,
-                            PrecioTotalCarrito = 15.75,
-                            ProductoEnCarrito = "Producto 6"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CantidadCadaProductoEnCarrito = 3,
-                            IdClienteFk = 3,
-                            IdProductoFk = 1,
-                            PrecioTotalCarrito = 30.0,
-                            ProductoEnCarrito = "Producto 7"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            CantidadCadaProductoEnCarrito = 1,
-                            IdClienteFk = 4,
-                            IdProductoFk = 3,
-                            PrecioTotalCarrito = 10.0,
-                            ProductoEnCarrito = "Producto 8"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            CantidadCadaProductoEnCarrito = 2,
-                            IdClienteFk = 5,
-                            IdProductoFk = 2,
-                            PrecioTotalCarrito = 25.5,
-                            ProductoEnCarrito = "Producto 9"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            CantidadCadaProductoEnCarrito = 1,
-                            IdClienteFk = 5,
-                            IdProductoFk = 1,
-                            PrecioTotalCarrito = 15.75,
-                            ProductoEnCarrito = "Producto 10"
                         });
                 });
 
@@ -170,52 +125,17 @@ namespace Persistence.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Nombre = "Electrónicos"
+                            Nombre = "Jackets"
                         },
                         new
                         {
                             Id = 2,
-                            Nombre = "Ropa"
+                            Nombre = "T-Shirts"
                         },
                         new
                         {
                             Id = 3,
-                            Nombre = "Hogar"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Nombre = "Deportes"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Nombre = "Juguetes"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Nombre = "Alimentos"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Nombre = "Libros"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Nombre = "Salud y Belleza"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Nombre = "Automotriz"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Nombre = "Muebles"
+                            Nombre = "Pants"
                         });
                 });
 
@@ -256,82 +176,26 @@ namespace Persistence.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Apellidos = "Pérez",
-                            Direccion = "Calle A, Ciudad",
-                            Nombres = "Juan",
-                            NroContacto = 123456789.0
+                            Apellidos = "Castro Torres",
+                            Direccion = "Calle 15, Bucaramanga",
+                            Nombres = "Diego Fernando",
+                            NroContacto = 3115411220.0
                         },
                         new
                         {
                             Id = 2,
-                            Apellidos = "Gómez",
-                            Direccion = "Calle B, Ciudad",
-                            Nombres = "María",
-                            NroContacto = 987654321.0
+                            Apellidos = "Aristizabal",
+                            Direccion = "Carrera 23, Piedecuesta",
+                            Nombres = "Jennifer",
+                            NroContacto = 3115422110.0
                         },
                         new
                         {
                             Id = 3,
-                            Apellidos = "Rodríguez",
-                            Direccion = "Calle C, Ciudad",
-                            Nombres = "Carlos",
-                            NroContacto = 555555555.0
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Apellidos = "Martínez",
-                            Direccion = "Calle D, Ciudad",
-                            Nombres = "Ana",
-                            NroContacto = 111111111.0
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Apellidos = "López",
-                            Direccion = "Calle E, Ciudad",
-                            Nombres = "Pedro",
-                            NroContacto = 999999999.0
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Apellidos = "Sánchez",
-                            Direccion = "Calle F, Ciudad",
-                            Nombres = "Laura",
-                            NroContacto = 888888888.0
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Apellidos = "Hernández",
-                            Direccion = "Calle G, Ciudad",
-                            Nombres = "Diego",
-                            NroContacto = 777777777.0
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Apellidos = "Gutiérrez",
-                            Direccion = "Calle H, Ciudad",
-                            Nombres = "Elena",
-                            NroContacto = 666666666.0
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Apellidos = "Flores",
-                            Direccion = "Calle I, Ciudad",
-                            Nombres = "Hugo",
-                            NroContacto = 444444444.0
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Apellidos = "Díaz",
-                            Direccion = "Calle J, Ciudad",
-                            Nombres = "Sofía",
-                            NroContacto = 333333333.0
+                            Apellidos = "Castro Torres",
+                            Direccion = "Calle 25, Giron",
+                            Nombres = "Alexandra",
+                            NroContacto = 3118473642.0
                         });
                 });
 
@@ -383,7 +247,7 @@ namespace Persistence.Data.Migrations
                         {
                             Id = 1,
                             DireccionCliente = "Calle A, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5915),
+                            FechaTransaccion = new DateTime(2023, 12, 14, 12, 49, 17, 348, DateTimeKind.Local).AddTicks(323),
                             IdClienteFk = 1,
                             IdCompraFk = 1,
                             IdMetodoPagoFk = 1,
@@ -393,7 +257,7 @@ namespace Persistence.Data.Migrations
                         {
                             Id = 2,
                             DireccionCliente = "Calle B, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5929),
+                            FechaTransaccion = new DateTime(2023, 12, 14, 12, 49, 17, 348, DateTimeKind.Local).AddTicks(339),
                             IdClienteFk = 2,
                             IdCompraFk = 2,
                             IdMetodoPagoFk = 2,
@@ -403,81 +267,11 @@ namespace Persistence.Data.Migrations
                         {
                             Id = 3,
                             DireccionCliente = "Calle C, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5929),
+                            FechaTransaccion = new DateTime(2023, 12, 14, 12, 49, 17, 348, DateTimeKind.Local).AddTicks(340),
                             IdClienteFk = 3,
                             IdCompraFk = 3,
                             IdMetodoPagoFk = 1,
                             ValorTotalTransaccion = 100.0
-                        },
-                        new
-                        {
-                            Id = 4,
-                            DireccionCliente = "Calle D, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5930),
-                            IdClienteFk = 4,
-                            IdCompraFk = 4,
-                            IdMetodoPagoFk = 3,
-                            ValorTotalTransaccion = 30.0
-                        },
-                        new
-                        {
-                            Id = 5,
-                            DireccionCliente = "Calle E, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5931),
-                            IdClienteFk = 5,
-                            IdCompraFk = 5,
-                            IdMetodoPagoFk = 2,
-                            ValorTotalTransaccion = 60.0
-                        },
-                        new
-                        {
-                            Id = 6,
-                            DireccionCliente = "Calle F, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5932),
-                            IdClienteFk = 1,
-                            IdCompraFk = 6,
-                            IdMetodoPagoFk = 1,
-                            ValorTotalTransaccion = 45.0
-                        },
-                        new
-                        {
-                            Id = 7,
-                            DireccionCliente = "Calle G, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5932),
-                            IdClienteFk = 2,
-                            IdCompraFk = 7,
-                            IdMetodoPagoFk = 2,
-                            ValorTotalTransaccion = 80.0
-                        },
-                        new
-                        {
-                            Id = 8,
-                            DireccionCliente = "Calle H, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5933),
-                            IdClienteFk = 3,
-                            IdCompraFk = 8,
-                            IdMetodoPagoFk = 3,
-                            ValorTotalTransaccion = 95.0
-                        },
-                        new
-                        {
-                            Id = 9,
-                            DireccionCliente = "Calle I, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5934),
-                            IdClienteFk = 4,
-                            IdCompraFk = 9,
-                            IdMetodoPagoFk = 1,
-                            ValorTotalTransaccion = 70.0
-                        },
-                        new
-                        {
-                            Id = 10,
-                            DireccionCliente = "Calle J, Ciudad",
-                            FechaTransaccion = new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5936),
-                            IdClienteFk = 5,
-                            IdCompraFk = 10,
-                            IdMetodoPagoFk = 2,
-                            ValorTotalTransaccion = 55.0
                         });
                 });
 
@@ -527,55 +321,6 @@ namespace Persistence.Data.Migrations
                             Cantidad = 1,
                             IdProductoFk = 3,
                             ValorUnitUSD = 30.0
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Cantidad = 4,
-                            IdProductoFk = 4,
-                            ValorUnitUSD = 10.0
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Cantidad = 2,
-                            IdProductoFk = 5,
-                            ValorUnitUSD = 25.5
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Cantidad = 1,
-                            IdProductoFk = 1,
-                            ValorUnitUSD = 15.75
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Cantidad = 3,
-                            IdProductoFk = 2,
-                            ValorUnitUSD = 30.0
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Cantidad = 1,
-                            IdProductoFk = 3,
-                            ValorUnitUSD = 10.0
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Cantidad = 2,
-                            IdProductoFk = 4,
-                            ValorUnitUSD = 25.5
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Cantidad = 1,
-                            IdProductoFk = 5,
-                            ValorUnitUSD = 15.75
                         });
                 });
 
@@ -620,48 +365,6 @@ namespace Persistence.Data.Migrations
                             Id = 3,
                             DetallesAdicionalesProducto = "Detalles adicionales para Producto 3",
                             IdProductoFk = 3
-                        },
-                        new
-                        {
-                            Id = 4,
-                            DetallesAdicionalesProducto = "Detalles adicionales para Producto 4",
-                            IdProductoFk = 4
-                        },
-                        new
-                        {
-                            Id = 5,
-                            DetallesAdicionalesProducto = "Detalles adicionales para Producto 5",
-                            IdProductoFk = 5
-                        },
-                        new
-                        {
-                            Id = 6,
-                            DetallesAdicionalesProducto = "Detalles adicionales para Producto 1",
-                            IdProductoFk = 1
-                        },
-                        new
-                        {
-                            Id = 7,
-                            DetallesAdicionalesProducto = "Detalles adicionales para Producto 2",
-                            IdProductoFk = 2
-                        },
-                        new
-                        {
-                            Id = 8,
-                            DetallesAdicionalesProducto = "Detalles adicionales para Producto 3",
-                            IdProductoFk = 3
-                        },
-                        new
-                        {
-                            Id = 9,
-                            DetallesAdicionalesProducto = "Detalles adicionales para Producto 4",
-                            IdProductoFk = 4
-                        },
-                        new
-                        {
-                            Id = 10,
-                            DetallesAdicionalesProducto = "Detalles adicionales para Producto 5",
-                            IdProductoFk = 5
                         });
                 });
 
@@ -712,26 +415,6 @@ namespace Persistence.Data.Migrations
                         {
                             Id = 6,
                             Nombre = "Tarjeta de Débito"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Nombre = "Bitcoin"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Nombre = "Apple Pay"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            Nombre = "Google Pay"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            Nombre = "Venmo"
                         });
                 });
 
@@ -783,101 +466,31 @@ namespace Persistence.Data.Migrations
                         {
                             Id = 1,
                             IdCategoriaFk = 1,
-                            Marca = "Adidas",
-                            Nombre = "Laptop Adidas",
-                            Precio = 800.0,
-                            StockDisponible = 50,
-                            UrlImagen = "https://i.imgur.com/nV5x34p.jpg"
+                            Marca = "Nike",
+                            Nombre = "Abrigo 01",
+                            Precio = 1000.0,
+                            StockDisponible = 10,
+                            UrlImagen = "aa"
                         },
                         new
                         {
                             Id = 2,
-                            IdCategoriaFk = 1,
-                            Marca = "Adidas",
-                            Nombre = "Smartphone Adidas",
+                            IdCategoriaFk = 2,
+                            Marca = "Nike",
+                            Nombre = "Camiseta 01",
                             Precio = 500.0,
                             StockDisponible = 100,
-                            UrlImagen = "https://i.imgur.com/w99d8o5.jpg"
+                            UrlImagen = "aa"
                         },
                         new
                         {
                             Id = 3,
-                            IdCategoriaFk = 2,
-                            Marca = "Adidas",
-                            Nombre = "Television Adidas",
+                            IdCategoriaFk = 3,
+                            Marca = "Nike",
+                            Nombre = "Pantalon 01",
                             Precio = 1200.0,
                             StockDisponible = 30,
-                            UrlImagen = "https://i.imgur.com/5rE070t.jpg"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            IdCategoriaFk = 3,
-                            Marca = "Adidas",
-                            Nombre = "Zapatillas Deportivas Adidas",
-                            Precio = 80.0,
-                            StockDisponible = 200,
-                            UrlImagen = "https://i.imgur.com/oQ8i8q.jpg"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            IdCategoriaFk = 7,
-                            Marca = "Adidas",
-                            Nombre = "Libro de Ciencia Ficción Adidas",
-                            Precio = 15.0,
-                            StockDisponible = 50,
-                            UrlImagen = "https://i.imgur.com/3c3Q8sJ.jpg"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            IdCategoriaFk = 6,
-                            Marca = "Adidas",
-                            Nombre = "Mesa de Comedor Adidas",
-                            Precio = 250.0,
-                            StockDisponible = 60,
-                            UrlImagen = "https://i.imgur.com/787878s.jpg"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            IdCategoriaFk = 5,
-                            Marca = "Adidas",
-                            Nombre = "Reloj Inteligente Adidas",
-                            Precio = 100.0,
-                            StockDisponible = 75,
-                            UrlImagen = "https://i.imgur.com/f94g11j.jpg"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            IdCategoriaFk = 4,
-                            Marca = "Adidas",
-                            Nombre = "Cámara DSLR Adidas",
-                            Precio = 600.0,
-                            StockDisponible = 15,
-                            UrlImagen = "https://i.imgur.com/339559s.jpg"
-                        },
-                        new
-                        {
-                            Id = 9,
-                            IdCategoriaFk = 10,
-                            Marca = "Adidas",
-                            Nombre = "Silla de Oficina Adidas",
-                            Precio = 120.0,
-                            StockDisponible = 40,
-                            UrlImagen = "https://i.imgur.com/696969s.jpg"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            IdCategoriaFk = 6,
-                            Marca = "Adidas",
-                            Nombre = "Botellas de Vino (Pack de 6) Adidas",
-                            Precio = 50.0,
-                            StockDisponible = 60,
-                            UrlImagen = "https://i.imgur.com/787878s.jpg"
+                            UrlImagen = "aa"
                         });
                 });
 
@@ -988,23 +601,23 @@ namespace Persistence.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Email = "britodelgado514@gmail.com",
+                            Email = "fercho11422@gmail.com",
                             Password = "123456",
-                            Username = "Sicer Brito"
+                            Username = "Diego Castro"
                         },
                         new
                         {
                             Id = 2,
-                            Email = "angedeveloper@gmail.com",
-                            Password = "123456",
-                            Username = "Angelica Morales"
+                            Email = "jennifer@gmail.com",
+                            Password = "1234567",
+                            Username = "Jennifer Aristizabal"
                         },
                         new
                         {
                             Id = 3,
-                            Email = "lisethtorres969@gmail.com",
-                            Password = "123456",
-                            Username = "Konny Alucemna"
+                            Email = "alexandra@gmail.com",
+                            Password = "1234568",
+                            Username = "Alexandra Castro"
                         });
                 });
 

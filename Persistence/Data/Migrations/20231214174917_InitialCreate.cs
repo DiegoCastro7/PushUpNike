@@ -298,16 +298,9 @@ namespace Persistence.Data.Migrations
                 columns: new[] { "IdCategoriaProducto", "Nombre" },
                 values: new object[,]
                 {
-                    { 1, "Electrónicos" },
-                    { 2, "Ropa" },
-                    { 3, "Hogar" },
-                    { 4, "Deportes" },
-                    { 5, "Juguetes" },
-                    { 6, "Alimentos" },
-                    { 7, "Libros" },
-                    { 8, "Salud y Belleza" },
-                    { 9, "Automotriz" },
-                    { 10, "Muebles" }
+                    { 1, "Jackets" },
+                    { 2, "T-Shirts" },
+                    { 3, "Pants" }
                 });
 
             migrationBuilder.InsertData(
@@ -315,16 +308,9 @@ namespace Persistence.Data.Migrations
                 columns: new[] { "IdCliente", "Apellidos", "Direccion", "Nombres", "NroContacto" },
                 values: new object[,]
                 {
-                    { 1, "Pérez", "Calle A, Ciudad", "Juan", 123456789.0 },
-                    { 2, "Gómez", "Calle B, Ciudad", "María", 987654321.0 },
-                    { 3, "Rodríguez", "Calle C, Ciudad", "Carlos", 555555555.0 },
-                    { 4, "Martínez", "Calle D, Ciudad", "Ana", 111111111.0 },
-                    { 5, "López", "Calle E, Ciudad", "Pedro", 999999999.0 },
-                    { 6, "Sánchez", "Calle F, Ciudad", "Laura", 888888888.0 },
-                    { 7, "Hernández", "Calle G, Ciudad", "Diego", 777777777.0 },
-                    { 8, "Gutiérrez", "Calle H, Ciudad", "Elena", 666666666.0 },
-                    { 9, "Flores", "Calle I, Ciudad", "Hugo", 444444444.0 },
-                    { 10, "Díaz", "Calle J, Ciudad", "Sofía", 333333333.0 }
+                    { 1, "Castro Torres", "Calle 15, Bucaramanga", "Diego Fernando", 3115411220.0 },
+                    { 2, "Aristizabal", "Carrera 23, Piedecuesta", "Jennifer", 3115422110.0 },
+                    { 3, "Castro Torres", "Calle 25, Giron", "Alexandra", 3118473642.0 }
                 });
 
             migrationBuilder.InsertData(
@@ -337,11 +323,7 @@ namespace Persistence.Data.Migrations
                     { 3, "PayPal" },
                     { 4, "Efectivo" },
                     { 5, "Cheque" },
-                    { 6, "Tarjeta de Débito" },
-                    { 7, "Bitcoin" },
-                    { 8, "Apple Pay" },
-                    { 9, "Google Pay" },
-                    { 10, "Venmo" }
+                    { 6, "Tarjeta de Débito" }
                 });
 
             migrationBuilder.InsertData(
@@ -360,9 +342,9 @@ namespace Persistence.Data.Migrations
                 columns: new[] { "Id_Usuario", "Email", "Password", "Username" },
                 values: new object[,]
                 {
-                    { 1, "britodelgado514@gmail.com", "123456", "Sicer Brito" },
-                    { 2, "angedeveloper@gmail.com", "123456", "Angelica Morales" },
-                    { 3, "lisethtorres969@gmail.com", "123456", "Konny Alucemna" }
+                    { 1, "fercho11422@gmail.com", "123456", "Diego Castro" },
+                    { 2, "jennifer@gmail.com", "1234567", "Jennifer Aristizabal" },
+                    { 3, "alexandra@gmail.com", "1234568", "Alexandra Castro" }
                 });
 
             migrationBuilder.InsertData(
@@ -370,16 +352,9 @@ namespace Persistence.Data.Migrations
                 columns: new[] { "IdProducto", "IdCategoriaFk", "Marca", "Nombre", "Precio", "StockDisponible", "UrlImagen" },
                 values: new object[,]
                 {
-                    { 1, 1, "Adidas", "Laptop Adidas", 800.0, 50, "https://i.imgur.com/nV5x34p.jpg" },
-                    { 2, 1, "Adidas", "Smartphone Adidas", 500.0, 100, "https://i.imgur.com/w99d8o5.jpg" },
-                    { 3, 2, "Adidas", "Television Adidas", 1200.0, 30, "https://i.imgur.com/5rE070t.jpg" },
-                    { 4, 3, "Adidas", "Zapatillas Deportivas Adidas", 80.0, 200, "https://i.imgur.com/oQ8i8q.jpg" },
-                    { 5, 7, "Adidas", "Libro de Ciencia Ficción Adidas", 15.0, 50, "https://i.imgur.com/3c3Q8sJ.jpg" },
-                    { 6, 6, "Adidas", "Mesa de Comedor Adidas", 250.0, 60, "https://i.imgur.com/787878s.jpg" },
-                    { 7, 5, "Adidas", "Reloj Inteligente Adidas", 100.0, 75, "https://i.imgur.com/f94g11j.jpg" },
-                    { 8, 4, "Adidas", "Cámara DSLR Adidas", 600.0, 15, "https://i.imgur.com/339559s.jpg" },
-                    { 9, 10, "Adidas", "Silla de Oficina Adidas", 120.0, 40, "https://i.imgur.com/696969s.jpg" },
-                    { 10, 6, "Adidas", "Botellas de Vino (Pack de 6) Adidas", 50.0, 60, "https://i.imgur.com/787878s.jpg" }
+                    { 1, 1, "Nike", "Abrigo 01", 1000.0, 10, "aa" },
+                    { 2, 2, "Nike", "Camiseta 01", 500.0, 100, "aa" },
+                    { 3, 3, "Nike", "Pantalon 01", 1200.0, 30, "aa" }
                 });
 
             migrationBuilder.InsertData(
@@ -391,12 +366,7 @@ namespace Persistence.Data.Migrations
                     { 2, 1, 1, 3, 15.75, "Producto 2" },
                     { 3, 3, 2, 2, 30.0, "Producto 3" },
                     { 4, 1, 3, 1, 10.0, "Producto 4" },
-                    { 5, 2, 2, 3, 25.5, "Producto 5" },
-                    { 6, 1, 4, 2, 15.75, "Producto 6" },
-                    { 7, 3, 3, 1, 30.0, "Producto 7" },
-                    { 8, 1, 4, 3, 10.0, "Producto 8" },
-                    { 9, 2, 5, 2, 25.5, "Producto 9" },
-                    { 10, 1, 5, 1, 15.75, "Producto 10" }
+                    { 5, 2, 2, 3, 25.5, "Producto 5" }
                 });
 
             migrationBuilder.InsertData(
@@ -406,14 +376,7 @@ namespace Persistence.Data.Migrations
                 {
                     { 1, 3, 1, 20.0 },
                     { 2, 2, 2, 15.5 },
-                    { 3, 1, 3, 30.0 },
-                    { 4, 4, 4, 10.0 },
-                    { 5, 2, 5, 25.5 },
-                    { 6, 1, 1, 15.75 },
-                    { 7, 3, 2, 30.0 },
-                    { 8, 1, 3, 10.0 },
-                    { 9, 2, 4, 25.5 },
-                    { 10, 1, 5, 15.75 }
+                    { 3, 1, 3, 30.0 }
                 });
 
             migrationBuilder.InsertData(
@@ -423,14 +386,7 @@ namespace Persistence.Data.Migrations
                 {
                     { 1, "Detalles adicionales para Producto 1", 1 },
                     { 2, "Detalles adicionales para Producto 2", 2 },
-                    { 3, "Detalles adicionales para Producto 3", 3 },
-                    { 4, "Detalles adicionales para Producto 4", 4 },
-                    { 5, "Detalles adicionales para Producto 5", 5 },
-                    { 6, "Detalles adicionales para Producto 1", 1 },
-                    { 7, "Detalles adicionales para Producto 2", 2 },
-                    { 8, "Detalles adicionales para Producto 3", 3 },
-                    { 9, "Detalles adicionales para Producto 4", 4 },
-                    { 10, "Detalles adicionales para Producto 5", 5 }
+                    { 3, "Detalles adicionales para Producto 3", 3 }
                 });
 
             migrationBuilder.InsertData(
@@ -438,16 +394,9 @@ namespace Persistence.Data.Migrations
                 columns: new[] { "IdClienteCompra", "DireccionCliente", "FechaTransaccion", "IdClienteFk", "IdCompraFk", "IdMetodoPagoFk", "ValorTotalTransaccion" },
                 values: new object[,]
                 {
-                    { 1, "Calle A, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5915), 1, 1, 1, 50.0 },
-                    { 2, "Calle B, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5929), 2, 2, 2, 75.0 },
-                    { 3, "Calle C, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5929), 3, 3, 1, 100.0 },
-                    { 4, "Calle D, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5930), 4, 4, 3, 30.0 },
-                    { 5, "Calle E, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5931), 5, 5, 2, 60.0 },
-                    { 6, "Calle F, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5932), 1, 6, 1, 45.0 },
-                    { 7, "Calle G, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5932), 2, 7, 2, 80.0 },
-                    { 8, "Calle H, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5933), 3, 8, 3, 95.0 },
-                    { 9, "Calle I, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5934), 4, 9, 1, 70.0 },
-                    { 10, "Calle J, Ciudad", new DateTime(2023, 12, 14, 15, 30, 1, 110, DateTimeKind.Local).AddTicks(5936), 5, 10, 2, 55.0 }
+                    { 1, "Calle A, Ciudad", new DateTime(2023, 12, 14, 12, 49, 17, 348, DateTimeKind.Local).AddTicks(323), 1, 1, 1, 50.0 },
+                    { 2, "Calle B, Ciudad", new DateTime(2023, 12, 14, 12, 49, 17, 348, DateTimeKind.Local).AddTicks(339), 2, 2, 2, 75.0 },
+                    { 3, "Calle C, Ciudad", new DateTime(2023, 12, 14, 12, 49, 17, 348, DateTimeKind.Local).AddTicks(340), 3, 3, 1, 100.0 }
                 });
 
             migrationBuilder.CreateIndex(
